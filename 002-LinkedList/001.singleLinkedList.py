@@ -21,10 +21,13 @@ class LinkedList:
     
     def insertAtEnd(self,val):
         newNode = Node(val)
-        current = self.head
-        while current.next != None:
-            current = current.next
-        current.next = newNode
+        if self.head == None:
+            self.head = newNode
+        else:
+            current = self.head
+            while current.next != None:
+                current = current.next
+            current.next = newNode
 
     def insertAtPos(self,val,pos):
         if pos < 0 or self.head == None:
