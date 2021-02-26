@@ -61,6 +61,16 @@ class LinkedList:
             current = current.next
         current.next = None
     
+    def deleteVal(self,key):
+        if self.head == None:
+            return
+        if self.head.data == key:
+            self.head = self.head.next
+        else:
+            current = self.head
+            while current.next.data != key and current:
+                current = current.next
+            current.next = current.next.next
 
 # List = 5 -> 1 -> 17 -> 4 -> 8
 
@@ -87,4 +97,8 @@ linkedList.printList()
 linkedList.deleteAtBeginning()
 linkedList.printList()
 linkedList.deleteLastNode()
+linkedList.printList()
+linkedList.deleteVal(5)
+linkedList.printList()
+linkedList.deleteVal(8)
 linkedList.printList()
