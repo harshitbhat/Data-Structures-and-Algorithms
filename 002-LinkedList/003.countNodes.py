@@ -1,5 +1,5 @@
 '''
-Problem Link: https://practice.geeksforgeeks.org/problems/count-nodes-of-linked-list/
+Problem Link: https://practice.geeksforgeeks.org/problems/count-nodes-of-linked-list/1
 '''
 class Solution:
     def getCount(self, head_node):

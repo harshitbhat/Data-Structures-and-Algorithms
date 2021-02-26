@@ -1,5 +1,5 @@
 '''
-Problem Link: https://practice.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/
+Problem Link: https://practice.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1
 '''
 def delNode(head, k):
     if k == 1:

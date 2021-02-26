@@ -14,3 +14,14 @@ Basic Data Structures and Algorithms and their related questions
 ## Linked List
 
 - [Single Linked List](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-LinkedList/001.singleLinkedList.py)
+- [Delete a Node in Single Linked List]()
+- [Count nodes of linked list]()
+- [Node at a given index in linked list]()
+- [Nth node from end of linked list]()
+- [Finding middle element in a linked list]()
+- [Occurence of an integer in a Linked List]()
+- [Detect Loop in linked list]()
+- [Find length of Loop]()
+- [Check if Linked List is Palindrome]()
+- [Remove duplicate element from sorted Linked List]()
+- [Remove duplicates from an unsorted linked list]()
