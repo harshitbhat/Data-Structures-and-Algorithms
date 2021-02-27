@@ -15,7 +15,7 @@ Basic Data Structures and Algorithms and their related questions
 
 - [Single Linked List](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-LinkedList/001.singleLinkedList.py)
 - Delete a Node in Single Linked List -> [Question](https://practice.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-LinkedList/002.deleteAtPosition.py)
-- [Count nodes of linked list](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-LinkedList/003.countNodes.py)
+- Count nodes of linked list -> [Question](https://practice.geeksforgeeks.org/problems/count-nodes-of-linked-list/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-LinkedList/003.countNodes.py)
 - [Node at a given index in linked list](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-LinkedList/004.nodeAtgivenIndex.py)
 - [Nth node from end of linked list](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-LinkedList/005.nthNodeFromEnd.py)
 - [Finding middle element in a linked list](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-LinkedList/006.middleElementOfLinkedList.py)
