@@ -11,4 +11,5 @@ class Solution:
             currNode = nextNode
         
         head = prevNode
+        
         return head
