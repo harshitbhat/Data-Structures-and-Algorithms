@@ -36,3 +36,5 @@ Basic Data Structures and Algorithms and their related questions
 - Delete without head pointer -> [Question](https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1#) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-LinkedList/021.delete-without-head-pointer.py)
 
 ## Stack and Queue
+
+- Parenthesis Checker -> [Question](https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1#) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/003-Stacks%26Queues/001.parenthesis-checker.py)
