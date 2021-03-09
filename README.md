@@ -49,3 +49,7 @@ Basic Data Structures and Algorithms and their related questions
 - Preorder Traversal -> [Question](https://practice.geeksforgeeks.org/problems/preorder-traversal/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/003.preOrderTraversal.py)
 - Postorder Traversal -> [Question](https://practice.geeksforgeeks.org/problems/postorder-traversal/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/004.postOrderTraversal.py)
 - Level order traversal -> [Question](https://practice.geeksforgeeks.org/problems/level-order-traversal/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/005.levelOrderTraversal.py)
+
+# LeetCode - 🔝 Top Interview Questions
+
+1. Reverse String - [Question](https://leetcode.com/problems/reverse-string/) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/LeetCode%20-%20%F0%9F%94%9D%20Top%20Interview%20Questions/001.reverse-string.py)
