@@ -38,3 +38,4 @@ Basic Data Structures and Algorithms and their related questions
 ## Stack and Queue
 
 - Parenthesis Checker -> [Question](https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1#) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/003-Stacks%26Queues/001.parenthesis-checker.py)
+- Next Greater Element -> [Question](https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1#) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/003-Stacks%26Queues/002.next-larger-element.py)
