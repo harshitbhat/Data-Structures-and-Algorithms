@@ -52,4 +52,5 @@ Basic Data Structures and Algorithms and their related questions
 
 # LeetCode - 🔝 Top Interview Questions
 
-1. Reverse String - [Question](https://leetcode.com/problems/reverse-string/) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/LeetCode%20-%20%F0%9F%94%9D%20Top%20Interview%20Questions/001.reverse-string.py)
+1. Reverse String -> [Question](https://leetcode.com/problems/reverse-string/) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/LeetCode%20-%20%F0%9F%94%9D%20Top%20Interview%20Questions/001.reverse-string.py)
+2. Maximum Depth of Binary Tree -> [Question](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/LeetCode%20-%20%F0%9F%94%9D%20Top%20Interview%20Questions/002.maximum-depth-of-binary-tree.py)
