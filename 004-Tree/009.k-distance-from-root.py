@@ -16,3 +16,17 @@ def KDistance(root,k):
         if n[0].right:
             q.append([n[0].right,n[1]+1])
     return ans
+
+# Recursive Solution
+def solve(root,k,ans):
+    if root == None:
+        return
+    if k == 0:
+        ans.append(root.data)
+    else:
+        solve(root.left,k-1,ans)
+        solve(root.right,k-1,ans)
+def KDistance2(root,k):
+    ans = []
+    solve(root,k,ans)
+    return ans
