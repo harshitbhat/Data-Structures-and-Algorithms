@@ -62,6 +62,7 @@ Basic Data Structures and Algorithms and their related questions
 ### Binary Search Tree
 
 - Insert a node in a BST - [Question](https://practice.geeksforgeeks.org/problems/insert-a-node-in-a-bst/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/011.insert-a-node-in-a-bst.py)
+- Minimum element in BST - [Question](https://practice.geeksforgeeks.org/problems/minimum-element-in-bst/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/012.minimum-element-in-bst.py)
 
 # LeetCode - 🔝 Top Interview Questions
 
