@@ -55,6 +55,7 @@ Basic Data Structures and Algorithms and their related questions
 - Diameter of Binary Tree - [Question](https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/007.diameter-of-binary-tree.py)
 - Maximum Width of Tree - [Question](https://practice.geeksforgeeks.org/problems/maximum-width-of-tree/1#) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/008.maximum-width-of-tree.py)
 - K distance from root - [Question](https://practice.geeksforgeeks.org/problems/k-distance-from-root/1#) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/009.k-distance-from-root.py)
+- Ancestors in Binary Tree - [Question](https://practice.geeksforgeeks.org/problems/ancestors-in-binary-tree/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/010.ancestors-in-binary-tree.py)
 
 # LeetCode - 🔝 Top Interview Questions
 
