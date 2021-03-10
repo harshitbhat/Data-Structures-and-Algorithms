@@ -46,6 +46,8 @@ Basic Data Structures and Algorithms and their related questions
 
 ## Trees
 
+### Binary Tree
+
 - [Binary Tree](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/001.binaryTree.py)
 - Inorder Traversal - [Question](https://practice.geeksforgeeks.org/problems/inorder-traversal/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/002.inOrderTraversal.py)
 - Preorder Traversal - [Question](https://practice.geeksforgeeks.org/problems/preorder-traversal/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/003.preOrderTraversal.py)
@@ -56,6 +58,10 @@ Basic Data Structures and Algorithms and their related questions
 - Maximum Width of Tree - [Question](https://practice.geeksforgeeks.org/problems/maximum-width-of-tree/1#) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/008.maximum-width-of-tree.py)
 - K distance from root - [Question](https://practice.geeksforgeeks.org/problems/k-distance-from-root/1#) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/009.k-distance-from-root.py)
 - Ancestors in Binary Tree - [Question](https://practice.geeksforgeeks.org/problems/ancestors-in-binary-tree/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/010.ancestors-in-binary-tree.py)
+
+### Binary Search Tree
+
+- Insert a node in a BST - [Question](https://practice.geeksforgeeks.org/problems/insert-a-node-in-a-bst/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/011.insert-a-node-in-a-bst.py)
 
 # LeetCode - 🔝 Top Interview Questions
 
