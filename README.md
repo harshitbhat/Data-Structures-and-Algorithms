@@ -69,6 +69,7 @@ Basic Data Structures and Algorithms and their related questions
 - Delete a node from BST - [Question](https://practice.geeksforgeeks.org/problems/delete-a-node-from-bst/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/016.delete-a-node-from-bst.py)
 - k-th smallest element in BST - [Question](https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/017.find-k-th-smallest-element-in-bst.py)
 - Find a pair with given target in BST - [Question](https://practice.geeksforgeeks.org/problems/find-a-pair-with-given-target-in-bst/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/018.find-a-pair-with-given-target-in-bst.py)
+- Print BST elements in given range - [Question](https://practice.geeksforgeeks.org/problems/print-bst-elements-in-given-range/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/019.print-bst-elements-in-given-range.py)
 
 # LeetCode - 🔝 Top Interview Questions
 
