@@ -34,6 +34,7 @@ Basic Data Structures and Algorithms and their related questions
 - Remove loop in Linked List - [Question](https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-LinkedList/019.remove-loop-in-linked-list.py)
 - Merge two sorted linked lists - [Question](https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1#) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-LinkedList/020.merge-two-sorted-linked-lists.py)
 - Delete without head pointer - [Question](https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1#) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-LinkedList/021.delete-without-head-pointer.py)
+- Add two numbers represented by linked lists - [Question](https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1#) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-LinkedList/022.add-two-numbers-represented-by-linked-lists.py)
 
 ## Stack and Queue
 
