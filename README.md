@@ -67,6 +67,7 @@ Basic Data Structures and Algorithms and their related questions
 - Lowest Common Ancestor in a BST - [Question](https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/014.lowest-common-ancestor-in-a-bst.py)
 - Inorder Successor in BST - [Question](https://practice.geeksforgeeks.org/problems/inorder-successor-in-bst/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/015.inorder-successor-in-bst.py)
 - Delete a node from BST - [Question](https://practice.geeksforgeeks.org/problems/delete-a-node-from-bst/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/016.delete-a-node-from-bst.py)
+- k-th smallest element in BST - [Question](https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/017.find-k-th-smallest-element-in-bst.py)
 
 # LeetCode - 🔝 Top Interview Questions
 
