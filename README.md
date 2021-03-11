@@ -71,6 +71,8 @@ Basic Data Structures and Algorithms and their related questions
 - Find a pair with given target in BST - [Question](https://practice.geeksforgeeks.org/problems/find-a-pair-with-given-target-in-bst/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/018.find-a-pair-with-given-target-in-bst.py)
 - Print BST elements in given range - [Question](https://practice.geeksforgeeks.org/problems/print-bst-elements-in-given-range/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/004-Tree/019.print-bst-elements-in-given-range.py)
 
+## Graphs
+
 # LeetCode - 🔝 Top Interview Questions
 
 1. Reverse String - [Question](https://leetcode.com/problems/reverse-string/) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/LeetCode%20-%20%F0%9F%94%9D%20Top%20Interview%20Questions/001.reverse-string.py)
