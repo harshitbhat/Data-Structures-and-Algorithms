@@ -43,5 +43,5 @@ g.insertEdge(6,9)
 g.insertEdge(7,8)
 g.insertEdge(8,9)
 
-g.DFS(0)
+g.DFS(1)
 
