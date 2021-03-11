@@ -86,6 +86,7 @@ Basic Data Structures and Algorithms and their related questions
 ### GeeksforGeeks
 
 - Nth Fibonacci Number - [Question](https://practice.geeksforgeeks.org/problems/nth-fibonacci-number1335/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/006-DynamicProgramming/001.nth-fibonacci-number.py)
+- Nth catalan number - [Question](https://practice.geeksforgeeks.org/problems/nth-catalan-number0817/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/006-DynamicProgramming/002.nth-catalan-number.py)
 
 # LeetCode - 🔝 Top Interview Questions
 
