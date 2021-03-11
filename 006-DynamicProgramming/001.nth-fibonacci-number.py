@@ -1,3 +1,5 @@
+#F(n) = F(n-1) + F(n-2)
+
 class Solution:
     def nthFibonacci (ob, n):
         dp = [0] * (n+1)
