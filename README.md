@@ -79,7 +79,7 @@ Basic Data Structures and Algorithms and their related questions
 - [Breadth First Search](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/005-Graphs/004.BFS.py)
 - BFS of graph - [Question](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/005-Graphs/005.bfs-traversal-of-graph.py)
 - [DFS]()
-- DFS of Graph - [Question]() - [Solution]()
+- DFS of Graph - [Question](https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1#) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/005-Graphs/007.depth-first-traversal-for-a-graph.py)
 
 # LeetCode - 🔝 Top Interview Questions
 
