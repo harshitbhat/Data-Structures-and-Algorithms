@@ -75,6 +75,7 @@ Basic Data Structures and Algorithms and their related questions
 
 - [Graph - Adjacency List](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/005-Graphs/001.graph-AdjacencyList.py)
 - [Graph - Adjacency Matrix](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/005-Graphs/002.graph-AdjacencyMatrix.py)
+- - [Question](https://practice.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1) - [Solution]()
 
 # LeetCode - 🔝 Top Interview Questions
 
