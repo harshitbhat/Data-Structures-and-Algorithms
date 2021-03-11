@@ -77,6 +77,7 @@ Basic Data Structures and Algorithms and their related questions
 - [Graph - Adjacency Matrix](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/005-Graphs/002.graph-AdjacencyMatrix.py)
 - Print adjacency list - [Question](https://practice.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/005-Graphs/003.print-adjacency-list.py)
 - [Breadth First Search](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/005-Graphs/004.BFS.py)
+- BFS of graph - [Question](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/005-Graphs/005.bfs-traversal-of-graph.py)
 
 # LeetCode - 🔝 Top Interview Questions
 
