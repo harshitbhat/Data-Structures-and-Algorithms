@@ -85,11 +85,6 @@ Basic Data Structures and Algorithms and their related questions
 
 ### GeeksforGeeks
 
-- Longest Common Subsequence - [Question](https://practice.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/006-DynamicProgramming/001.longestCommonSubsequence.py)
-- [Longest Increasing Subsequence](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/006-DynamicProgramming/002.longestIncreasingSubsequence.py)
-- Edit Distance - [Question](https://practice.geeksforgeeks.org/problems/edit-distance3702/1#) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/006-DynamicProgramming/003.editDistance.py)
-- Maximum path sum in matrix - [Question](https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/006-DynamicProgramming/004.path-in-matrix.py)
-
 # LeetCode - 🔝 Top Interview Questions
 
 1. Reverse String - [Question](https://leetcode.com/problems/reverse-string/) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/LeetCode%20-%20%F0%9F%94%9D%20Top%20Interview%20Questions/001.reverse-string.py)
