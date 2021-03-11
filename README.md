@@ -81,6 +81,8 @@ Basic Data Structures and Algorithms and their related questions
 - [DFS](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/005-Graphs/006.DFS.py)
 - DFS of Graph - [Question](https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1#) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/005-Graphs/007.depth-first-traversal-for-a-graph.py)
 
+## Dynamic Programming
+
 # LeetCode - 🔝 Top Interview Questions
 
 1. Reverse String - [Question](https://leetcode.com/problems/reverse-string/) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/LeetCode%20-%20%F0%9F%94%9D%20Top%20Interview%20Questions/001.reverse-string.py)
