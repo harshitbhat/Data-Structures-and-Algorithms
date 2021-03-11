@@ -85,6 +85,8 @@ Basic Data Structures and Algorithms and their related questions
 
 ### GeeksforGeeks
 
+- Nth Fibonacci Number - [Question](https://practice.geeksforgeeks.org/problems/nth-fibonacci-number1335/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/006-DynamicProgramming/001.nth-fibonacci-number.py)
+
 # LeetCode - 🔝 Top Interview Questions
 
 1. Reverse String - [Question](https://leetcode.com/problems/reverse-string/) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/LeetCode%20-%20%F0%9F%94%9D%20Top%20Interview%20Questions/001.reverse-string.py)
