@@ -83,7 +83,7 @@ Basic Data Structures and Algorithms and their related questions
 
 ## Dynamic Programming
 
-- [Longest Common Subsequence](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/006-DynamicProgramming/001.longestCommonSubsequence.py)
+- Longest Common Subsequence - [Question](https://practice.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/006-DynamicProgramming/001.longestCommonSubsequence.py)
 
 # LeetCode - 🔝 Top Interview Questions
 
