@@ -1,4 +1,4 @@
-#F(n) = F(n-1) + F(n-2)
+# F(n) = F(n-1) + F(n-2)
 
 class Solution:
     def nthFibonacci (ob, n):
