@@ -14,6 +14,7 @@ Basic Data Structures and Algorithms and their related questions
 - [Find prime factors](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/008.primeFactors.py)
 - [Find all divisors](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/009.divisors.py)
 - [Sieve of Eratosthenes](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/010.sieveOfEratosthenes.py)
+- [Power](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/011.power.py)
 
 ## Recursion
 
