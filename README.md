@@ -24,6 +24,7 @@ Basic Data Structures and Algorithms and their related questions
 - Primality Test - [Question](https://practice.geeksforgeeks.org/problems/primality-test/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/018.primality-test.py)
 - Exactly 3 Divisors - [Question](https://practice.geeksforgeeks.org/problems/exactly-3-divisors/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/019.exactly-3-divisors.py)
 - Addition Under Modulo - [Question](https://practice.geeksforgeeks.org/problems/addition-under-modulo/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/020.addition-under-modulo.py)
+- Multiplication Under Modulo - [Question](https://practice.geeksforgeeks.org/problems/multiplication-under-modulo/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/021.multiplication-under-modulo.py)
 
 ## Recursion
 
