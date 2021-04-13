@@ -20,6 +20,7 @@ Basic Data Structures and Algorithms and their related questions
 - Quadratic Equation Roots - [Question](https://practice.geeksforgeeks.org/problems/quadratic-equation-roots/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/014.quadratic-equation-roots.py)
 - Factorial Of Number - [Question](https://practice.geeksforgeeks.org/problems/factorial-of-number/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/015.factorial-of-number.py)
 - Digits In Factorial - [Question](https://practice.geeksforgeeks.org/problems/digits-in-factorial/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/016.digits-in-factorial.py)
+- GP Term - [Question](https://practice.geeksforgeeks.org/problems/gp-term/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/017.gp-term.py)
 
 ## Recursion
 
