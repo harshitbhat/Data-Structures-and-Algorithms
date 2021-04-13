@@ -12,6 +12,7 @@ Basic Data Structures and Algorithms and their related questions
 - [Least Common Multiple](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/006.lcm.py)
 - [Check if a number is prime](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/007.checkPrimes.py)
 - [Find prime factors](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/008.primeFactors.py)
+- [Find all divisors](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/009.divisors.py)
 
 ## Recursion
 
