@@ -15,6 +15,7 @@ Basic Data Structures and Algorithms and their related questions
 - [Find all divisors](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/009.divisors.py)
 - [Sieve of Eratosthenes](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/010.sieveOfEratosthenes.py)
 - [Power](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/011.power.py)
+- Absolute Value - [Question](https://practice.geeksforgeeks.org/problems/absolute-value/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/012.absolute-value.py)
 
 ## Recursion
 
