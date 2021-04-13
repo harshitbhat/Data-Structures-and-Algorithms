@@ -18,6 +18,7 @@ Basic Data Structures and Algorithms and their related questions
 - Absolute Value - [Question](https://practice.geeksforgeeks.org/problems/absolute-value/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/012.absolute-value.py)
 - Convert Celsius To Fahrenheit - [Question](https://practice.geeksforgeeks.org/problems/convert-celsius-to-fahrenheit/1/) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/013.convert-celsius-to-fahrenheit.py)
 - Quadratic Equation Roots - [Question](https://practice.geeksforgeeks.org/problems/quadratic-equation-roots/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/014.quadratic-equation-roots.py)
+- Factorial Of Number - [Question](https://practice.geeksforgeeks.org/problems/factorial-of-number/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/015.factorial-of-number.py)
 
 ## Recursion
 
