@@ -25,6 +25,7 @@ Basic Data Structures and Algorithms and their related questions
 - Exactly 3 Divisors - [Question](https://practice.geeksforgeeks.org/problems/exactly-3-divisors/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/019.exactly-3-divisors.py)
 - Addition Under Modulo - [Question](https://practice.geeksforgeeks.org/problems/addition-under-modulo/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/020.addition-under-modulo.py)
 - Multiplication Under Modulo - [Question](https://practice.geeksforgeeks.org/problems/multiplication-under-modulo/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/021.multiplication-under-modulo.py)
+- Modular Multiplicative Inverse - [Question](https://practice.geeksforgeeks.org/problems/modular-multiplicative-inverse-1587115620/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/022.modular-multiplicative-inverse.py)
 
 ## Recursion
 
