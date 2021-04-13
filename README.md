@@ -2,6 +2,17 @@
 
 Basic Data Structures and Algorithms and their related questions
 
+## Mathematics
+
+- [Count digits in a number](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/001.countDigits.py)
+- [Check if a number is palindrome](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/002.palindrome.py)
+- [Factorial](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/003.factorial.py)
+- [Trailing Zeroes in a factorial](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/004.trailingZeros.py)
+- [Greatest Common Divisior(GCD)](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/005.gcd.py)
+- [Least Common Multiple](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/006.lcm.py)
+- [Check if a number is prime](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/007.checkPrimes.py)
+- [Find prime factors](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/008.primeFactors.py)
+
 ## Recursion
 
 - [Factorial](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-Recursion/001.factorial.py)
