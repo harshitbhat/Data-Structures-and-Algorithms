@@ -22,6 +22,7 @@ Basic Data Structures and Algorithms and their related questions
 - Digits In Factorial - [Question](https://practice.geeksforgeeks.org/problems/digits-in-factorial/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/016.digits-in-factorial.py)
 - GP Term - [Question](https://practice.geeksforgeeks.org/problems/gp-term/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/017.gp-term.py)
 - Primality Test - [Question](https://practice.geeksforgeeks.org/problems/primality-test/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/018.primality-test.py)
+- Exactly 3 Divisors - [Question](https://practice.geeksforgeeks.org/problems/exactly-3-divisors/1) - [Solution]()
 
 ## Recursion
 
