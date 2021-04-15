@@ -11,4 +11,4 @@ The symbol and working is same as that in C++
 x = 3
 y = 6
 
-print(x | y) #gives 2 as output
+print(x | y) # It will give 7 as output
