@@ -11,3 +11,12 @@ x = 3
 y = 6
 
 print(x ^ y) # It will give 5 as output
+
+'''
+Some properties of XOR:
+    x ^ 0 = x
+    x ^ y = y ^ x
+    x ^ (y ^ z) = (x ^ y) ^ z
+    x ^ x = 0
+
+'''
