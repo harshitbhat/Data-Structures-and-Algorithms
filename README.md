@@ -37,6 +37,7 @@ Basic Data Structures and Algorithms and their related questions
 - [Bitwise NOT Operator](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/006.NOToperator.py)
 - [Check if kth bit is set or not](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/007.kthBitSetOrNot.py)
 - [Count number of set bits in binary representation of a number](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/008.countSetBits.py)
+- [Check if a number is power of 2](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/009.powerOfTwo.py)
 
 ## Recursion
 
