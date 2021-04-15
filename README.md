@@ -27,6 +27,15 @@ Basic Data Structures and Algorithms and their related questions
 - Multiplication Under Modulo - [Question](https://practice.geeksforgeeks.org/problems/multiplication-under-modulo/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/021.multiplication-under-modulo.py)
 - Modular Multiplicative Inverse - [Question](https://practice.geeksforgeeks.org/problems/modular-multiplicative-inverse-1587115620/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/022.modular-multiplicative-inverse.py)
 
+## Bitwise Operators
+
+- [Bitwise AND Operator](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/001.bitwiseAnd.py)
+- [Bitwise OR Operator](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/002.bitwiseOR.py)
+- [Bitwise XOR operator](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/003.bitwiseXOR.py)
+- [Left Shift Operator](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/004.leftShift.py)
+- [Right Shift Operator](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/005.rightShift.py)
+- [Bitwise NOT Operator](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/006.NOToperator.py)
+
 ## Recursion
 
 - [Factorial](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-Recursion/001.factorial.py)
