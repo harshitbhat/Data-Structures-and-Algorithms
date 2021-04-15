@@ -35,6 +35,7 @@ Basic Data Structures and Algorithms and their related questions
 - [Left Shift Operator](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/004.leftShift.py)
 - [Right Shift Operator](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/005.rightShift.py)
 - [Bitwise NOT Operator](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/006.NOToperator.py)
+- [Check if kth bit is set or not](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/007.kthBitSetOrNot.py)
 
 ## Recursion
 
