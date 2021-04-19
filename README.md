@@ -42,6 +42,7 @@ Basic Data Structures and Algorithms and their related questions
 - [Two odd times occuring numbers in an array of integers](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/011.twoOddOccuringElement.py)
 - Find first set bit - [Question](https://practice.geeksforgeeks.org/problems/find-first-set-bit-1587115620/1/) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/013.find-first-set-bit.py)
 - Rightmost different bit - [Question](https://practice.geeksforgeeks.org/problems/rightmost-different-bit-1587115621/1) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/014.rightmost-different-bit.py)
+- Check whether K-th bit is set or not - [Question](https://practice.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1/) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/015.check-whether-k-th-bit-is-set-or-not.py)
 
 ## Recursion
 
