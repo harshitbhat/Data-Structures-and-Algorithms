@@ -40,6 +40,7 @@ Basic Data Structures and Algorithms and their related questions
 - [Check if a number is power of 2](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/009.powerOfTwo.py)
 - [ Find the element occuring only once in array where elements appear in pairs](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/010.oneOddOccuringNumber.py)
 - [Two odd times occuring numbers in an array of integers](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/011.twoOddOccuringElement.py)
+- Find first set bit - [Question](https://practice.geeksforgeeks.org/problems/find-first-set-bit-1587115620/1/) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/001-BitwiseOperators/013.find-first-set-bit.py)
 
 ## Recursion
 
