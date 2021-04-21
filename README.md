@@ -5,7 +5,7 @@ Basic Data Structures and Algorithms and their related questions
 ## Mathematics
 
 - Count digits in a number - ([Python](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/001.countDigits.py)) - ([Javascript](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/001.countDigits.js))
-- [Check if a number is palindrome](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/002.palindrome.py)
+- Check if a number is palindrome - ([Python](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/002.palindrome.py)) - ([Javascript](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/002.palindrome.js))
 - [Factorial](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/003.factorial.py)
 - [Trailing Zeroes in a factorial](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/004.trailingZeros.py)
 - [Greatest Common Divisior(GCD)](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/005.gcd.py)
