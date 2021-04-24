@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>READMD Generator</title>
+    <script
+      src="https://kit.fontawesome.com/83965ef461.js"
+      crossorigin="anonymous"
+    ></script>
     <style>
       body {
         width: 100%;
@@ -17,6 +21,7 @@
       .container {
         display: flex;
         flex-direction: column;
+        width: 400px;
       }
 
       .general {
@@ -27,6 +32,15 @@
       .question {
         display: flex;
         flex-direction: column;
+      }
+      .copy-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .copy-container input {
+        width: 85%;
       }
 
       h2 {
@@ -48,11 +62,24 @@
         cursor: pointer;
         background-color: #e63946;
         color: #f1faee;
+        margin-bottom: 10px;
       }
 
       button:hover {
         background-color: #1d3557;
         color: #fca311;
+      }
+
+      .far {
+        font-size: 1.4rem;
+      }
+
+      .far:hover {
+        cursor: pointer;
+      }
+
+      .far:active {
+        transform: translateY(-3px);
       }
     </style>
   </head>
@@ -68,10 +95,13 @@
         <label for="javascript">Javascript</label>
         <input type="text" id="javascript" />
         <button id="g-btn">Generate README.md statement</button>
-        <h3 id="general-statement"></h3>
+        <div class="copy-container">
+          <input type="text" id="general-statement" disabled />
+          <i class="far fa-copy"></i>
+        </div>
       </div>
-      <!-- Question -->
-      <div class="question">
+      <!-- Question  -- Later  -->
+      <!-- <div class="question">
         <h2>Question</h2>
         <label for="q-name">Name</label>
         <input type="text" id="q-name" />
@@ -82,8 +112,10 @@
         <label for="q-javascript">Javascript</label>
         <input type="text" id="q-javascript" />
         <button>Generate README.md statement</button>
-        <h3 id="q-statement"></h3>
-      </div>
+        <div class="copy-container">
+          <input type="text" id="question-statement" disabled />
+          <i class="far fa-copy"></i>
+        </div> -->
     </div>
     <script>
       // General
@@ -92,13 +124,19 @@
       const gJavascript = document.querySelector('#javascript');
       const statement = document.querySelector('#general-statement');
       const gBtn = document.querySelector('#g-btn');
+      const copyBtn = document.querySelector('.far');
 
       gBtn.addEventListener('click', (e) => {
         const nVal = gName.value;
         const pVal = gPython.value;
         const gVal = gJavascript.value;
         const content = `- ${nVal} - ([Python](${pVal})) - ([Javascript](${gVal}))`;
-        statement.textContent = content;
+        statement.value = content;
+      });
+
+      copyBtn.addEventListener('click', async function copy() {
+        const text = statement.value;
+        await navigator.clipboard.writeText(text);
       });
     </script>
   </body>
