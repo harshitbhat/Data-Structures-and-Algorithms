@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>READMD Generator</title>
+    <style>
+      body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .general {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .question {
+        display: flex;
+        flex-direction: column;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      label {
+        margin-bottom: 5px;
+      }
+      input {
+        margin-bottom: 10px;
+        height: 20px;
+      }
+
+      button {
+        border: none;
+        height: 50px;
+        padding: 10px;
+        cursor: pointer;
+        background-color: #e63946;
+        color: #f1faee;
+      }
+
+      button:hover {
+        background-color: #1d3557;
+        color: #fca311;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- General -->
+      <div class="general">
+        <h2>General</h2>
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+        <label for="python">Python</label>
+        <input type="text" id="python" />
+        <label for="javascript">Javascript</label>
+        <input type="text" id="javascript" />
+        <button id="g-btn">Generate README.md statement</button>
+        <h3 id="general-statement"></h3>
+      </div>
+      <!-- Question -->
+      <div class="question">
+        <h2>Question</h2>
+        <label for="q-name">Name</label>
+        <input type="text" id="q-name" />
+        <label for="q-question">Question</label>
+        <input type="text" id="q-question" />
+        <label for="q-python">Python</label>
+        <input type="text" id="q-python" />
+        <label for="q-javascript">Javascript</label>
+        <input type="text" id="q-javascript" />
+        <button>Generate README.md statement</button>
+        <h3 id="q-statement"></h3>
+      </div>
+    </div>
+    <script>
+      // General
+      const gName = document.querySelector('#name');
+      const gPython = document.querySelector('#python');
+      const gJavascript = document.querySelector('#javascript');
+      const statement = document.querySelector('#general-statement');
+      const gBtn = document.querySelector('#g-btn');
+
+      gBtn.addEventListener('click', (e) => {
+        const nVal = gName.value;
+        const pVal = gPython.value;
+        const gVal = gJavascript.value;
+        const content = `- ${nVal} - ([Python](${pVal})) - ([Javascript](${gVal}))`;
+        statement.textContent = content;
+      });
+    </script>
+  </body>
+</html>
