@@ -8,7 +8,7 @@ Basic Data Structures and Algorithms and their related questions
 - Check if a number is palindrome - ([Python](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/002.palindrome.py)) - ([Javascript](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/002.palindrome.js))
 - Factorial - ([Python](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/003.factorial.py)) - ([Javascript](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/003.factorial.js))
 - Trailing Zeroes in a factorial - ([Python](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/003.factorial.py)) - ([Javascript](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/004.trailingZeros.js))
-- [Greatest Common Divisior(GCD)](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/005.gcd.py)
+- Greatest Common Divisior(GCD) - ([Python](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/005.gcd.py)) - ([Javascript](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/005.gcd.js))
 - [Least Common Multiple](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/006.lcm.py)
 - [Check if a number is prime](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/007.checkPrimes.py)
 - [Find prime factors](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/000-Mathematics/008.primeFactors.py)
