@@ -8,6 +8,15 @@ def fun(n):
 
 def main():
     fun(3)
+    '''
+    Output is:
+        3
+        2
+        1
+        1
+        2
+        3
+    '''
 
 if __name__ == '__main__':
     main()
