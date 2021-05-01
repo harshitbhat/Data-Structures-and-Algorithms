@@ -48,6 +48,15 @@ Basic Data Structures and Algorithms and their related questions
 
 ## Recursion
 
+- Recursive Output - 1 - ([Python](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/001.recursiveOutput1.py)) - ([Javascript](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/001.recursiveOutput1.js))
+- Recursive Output - 2 - ([Python](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/002.recursiveOutput2.py)) - ([Javascript](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/002.recursiveOutput2.js))
+- Recursive Output - 3 - ([Python](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/003.recursiveOutput3.py)) - ([Javascript](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/003.recursiveOutput3.js))
+- Recursive Output - 4 - ([Python](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/004.recursiveOutput4.py)) - ([Javascript](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/004.recursiveOutput4.js))
+- Print N to 1 - ([Python](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/005.printNto1.py)) - ([Javascript](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/005.printNto1.js))
+- Print 1 to N - ([Python](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/006.print1toN.py)) - ([Javascript](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/006.print1toN.js))
+- Tail Recursion - ([Python](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/007.tailRecursion.py)) - ([Javascript](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/007.tailRecursion.js))
+- Sum of N natural numbers - ([Python](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/008.sumOfN.py)) - ([Javascript](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/002-Recursion/008.sumOfN.js))
+
 # LeetCode - 🔝 Top Interview Questions
 
 1. Reverse String - [Question](https://leetcode.com/problems/reverse-string/) - [Solution](https://github.com/harshitbhat/Data-Structures-and-Algorithms/blob/master/LeetCode%20-%20%F0%9F%94%9D%20Top%20Interview%20Questions/001.reverse-string.py)
