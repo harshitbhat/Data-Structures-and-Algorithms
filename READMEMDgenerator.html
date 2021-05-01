@@ -24,6 +24,13 @@
         width: 400px;
       }
 
+      .types {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
       .general {
         display: flex;
         flex-direction: column;
@@ -71,7 +78,7 @@
       }
 
       .far {
-        font-size: 1.4rem;
+        font-size: 2rem;
       }
 
       .far:hover {
@@ -81,10 +88,17 @@
       .far:active {
         transform: translateY(-3px);
       }
+
+      input {
+        height: 2rem;
+      }
     </style>
   </head>
   <body>
     <div class="container">
+      <div class="types">
+        <button id="general-btn" class="type-btn">General</button>
+        <button id="question-btn" class="type-btn">Question</button></div>
       <!-- General -->
       <div class="general">
         <h2>General</h2>
@@ -100,8 +114,8 @@
           <i class="far fa-copy"></i>
         </div>
       </div>
-      <!-- Question  -- Later  -->
-      <!-- <div class="question">
+      <!-- Question  -->
+      <div class="question" style="display: none;">
         <h2>Question</h2>
         <label for="q-name">Name</label>
         <input type="text" id="q-name" />
@@ -113,11 +127,33 @@
         <input type="text" id="q-javascript" />
         <button>Generate README.md statement</button>
         <div class="copy-container">
-          <input type="text" id="question-statement" disabled />
+          <input type="text" id="q-statement" disabled />
           <i class="far fa-copy"></i>
-        </div> -->
+        </div>
     </div>
     <script>
+      // Containers
+      const genContainer = document.querySelector('.general');
+      const quesContainer = document.querySelector('.question');
+
+      // Types
+      const generalBtn = document.querySelector('#general-btn');
+      const questionBtn = document.querySelector('#question-btn');
+
+
+      // Showing Containers
+      generalBtn.addEventListener('click',(e) => {
+        genContainer.style.display = 'flex';
+        quesContainer.style.display = 'none';
+      })
+
+
+      questionBtn.addEventListener('click',(e) => {
+        genContainer.style.display = 'none';
+        quesContainer.style.display = 'flex';
+      })
+
+
       // General
       const gName = document.querySelector('#name');
       const gPython = document.querySelector('#python');
@@ -126,11 +162,24 @@
       const gBtn = document.querySelector('#g-btn');
       const copyBtn = document.querySelector('.far');
 
+
+      // Question
+      const qName = document.querySelector();
+      const qPython = document.querySelector('#python');
+      const qJavascript = document.querySelector('#javascript');
+      const qstatement = document.querySelector('#general-statement');
+      const gBtn = document.querySelector('#g-btn');
+      const copyBtn = document.querySelector('.far');
+
+      // Genereal Button Generator
       gBtn.addEventListener('click', (e) => {
         const nVal = gName.value;
         const pVal = gPython.value;
         const gVal = gJavascript.value;
         const content = `- ${nVal} - ([Python](${pVal})) - ([Javascript](${gVal}))`;
+        gName.value = '';
+        gPython.value = '';
+        gJavascript.value = '';
         statement.value = content;
       });
 
