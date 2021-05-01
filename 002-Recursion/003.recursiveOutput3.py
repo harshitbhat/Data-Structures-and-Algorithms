@@ -5,7 +5,7 @@ def fun(n):
     return 1 + fun(n//2)
 
 def main():
-    val = fun(64)
+    val = fun(16)
     print(val)
     '''
     Output: 
