@@ -1,8 +1,3 @@
-def swap(a, b):
-    temp = a
-    a = b
-    b = temp
-
 def permutations(s,i):
     if i == len(s) - 1:
         print(''.join(s))
