@@ -111,7 +111,7 @@
         <button id="g-btn">Generate README.md statement</button>
         <div class="copy-container">
           <input type="text" id="general-statement" disabled />
-          <i class="far fa-copy"></i>
+          <i class="far fa-copy" id="gCopy"></i>
         </div>
       </div>
       <!-- Question  -->
@@ -125,10 +125,10 @@
         <input type="text" id="q-python" />
         <label for="q-javascript">Javascript</label>
         <input type="text" id="q-javascript" />
-        <button>Generate README.md statement</button>
+        <button id="q-btn">Generate README.md statement</button>
         <div class="copy-container">
           <input type="text" id="q-statement" disabled />
-          <i class="far fa-copy"></i>
+          <i class="far fa-copy" id="q-copy"></i>
         </div>
     </div>
     <script>
@@ -164,29 +164,52 @@
 
 
       // Question
-      // const qName = document.querySelector();
-      // const qPython = document.querySelector('#python');
-      // const qJavascript = document.querySelector('#javascript');
-      // const qstatement = document.querySelector('#general-statement');
-      // const qBtn = document.querySelector('#g-btn');
-      // const qcopyBtn = document.querySelector('.far');
+      const qName = document.querySelector('#q-name');
+      const qQues = document.querySelector('#q-question')
+      const qPython = document.querySelector('#q-python');
+      const qJavascript = document.querySelector('#jq-javascript');
+      const qstatement = document.querySelector('#q-statement');
+      const qBtn = document.querySelector('#q-btn');
+      const qcopyBtn = document.querySelector('#q-copy');
 
       // Genereal Button Generator
       gBtn.addEventListener('click', (e) => {
         const nVal = gName.value;
         const pVal = gPython.value;
-        const gVal = gJavascript.value;
-        const content = `- ${nVal} - ([Python](${pVal})) - ([Javascript](${gVal}))`;
+        const jVal = gJavascript.value;
+        const content = `- ${nVal} - ([Python](${pVal})) - ([Javascript](${jVal}))`;
         gName.value = '';
         gPython.value = '';
         gJavascript.value = '';
         statement.value = content;
       });
 
+      // Question copy button
+      qBtn.addEventListener('click',(e) => {
+        const nVal = qName.value;
+        const qVal = qQues.value;
+        const pVal = qPython.value;
+        const jVal = qJavascript.value;
+        const content = `- ${nVal} - ([Question](${qVal})) - [Solution - [Python](${pVal}) - [Solution](${jVal})]`;
+        qName.value = '';
+        qQues.value = '';
+        qPython.value = '';
+        qJavascript.value = ''
+        qstatement.value = content;
+      })
+
+      // Copy button of General
       copyBtn.addEventListener('click', async function copy() {
         const text = statement.value;
         await navigator.clipboard.writeText(text);
       });
+
+      // Question copy button
+      qcopyBtn.addEventListener('click', async function copy() {
+        const text = qstatement.value;
+        await navigator.clipboard.writeText(text);
+      });
+      
     </script>
   </body>
 </html>
