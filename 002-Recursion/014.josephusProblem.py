@@ -11,7 +11,7 @@ def josephusProblem(n,k):
     return (josephusProblem(n-1,k) + k ) % n
 
 def main():
-    ans = josephusProblem(7,4)
-    print(ans)
+    ans = josephusProblem(5,3)
+    print(ans + 1)
 if __name__ == '__main__':
     main()
