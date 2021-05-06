@@ -1,5 +1,5 @@
 # Two Loops
-def secondLargest(arr):
+def secondLargest2(arr):
     largest = max(arr)
     ans = -1
     for i in range(0,len(arr)):
@@ -10,6 +10,19 @@ def secondLargest(arr):
                 ans = i
     return ans
 
+#OneLoop
+def secondLargest(arr):
+    res = -1
+    largest = 0
+    for i in range(1,len(arr)):
+        if arr[i] > arr[largest]:
+            res = largest
+            largest = i
+        elif arr[i] < arr[largest]:
+            if res == -1 or arr[i] > arr[res]:
+                res = i
+    
+    return res
 
 arr1 = [10, 5, 8, 20]
 arr2 = [20, 10, 20, 8, 12]
