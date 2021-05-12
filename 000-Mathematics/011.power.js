@@ -22,6 +22,21 @@ const powerR = (x, y) => {
   }
 };
 
-const res = powerR(2, 7);
+// Iterative Power (Binary Exponentiation)
+// Time Complexity - O(log n)
+// Space Complexity - O(n)
 
+const power = (x, y) => {
+  let res = 1;
+  while (y > 0) {
+    if (y % 2 != 0) {
+      res = res * x;
+    }
+    x = x * x;
+    y = parseInt(y / 2);
+  }
+  return res;
+};
+
+const res = power(2, 5);
 console.log(res);
