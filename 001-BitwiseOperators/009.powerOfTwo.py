@@ -9,7 +9,7 @@ def powerOfTwoN(n):
         n = n // 2
     return True
 
-print(powerOfTwoN(514))
+# print(powerOfTwoN(514))
 
 
 # Efficient, The number must have only one set bit
