@@ -19,8 +19,7 @@
 #         return countDigits(factIt(N))
 
 # Approach:
-# floor value of log base 
-# 10 increased by 1, of any number, gives the
+# floor value of log base 10 increased by 1, of any number, gives the
 # number of digits present in that number.
 import math
 
