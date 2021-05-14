@@ -8,6 +8,9 @@ function reverseArray(arr) {
   }
 }
 
+// JS Method
+const jsReverse = (arr) => arr.reverse();
+
 arr = [4, 1, 6, 8, 2];
 console.log(arr);
 reverseArray(arr);
