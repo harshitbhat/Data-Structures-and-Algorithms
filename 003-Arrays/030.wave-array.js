@@ -20,4 +20,18 @@ class Solution {
       }
     }
   }
+  convertToWave2(arr, n) {
+    // code here
+    const wave = new Array(n).fill(0);
+    let k = 0;
+    for (let i = 1; i < n; i += 2) {
+      wave[i] = arr[k++];
+    }
+    for (let i = 0; i < n; i += 2) {
+      wave[i] = arr[k++];
+    }
+    for (let i = 0; i < n; i++) {
+      arr[i] = wave[i];
+    }
+  }
 }
