@@ -1,8 +1,13 @@
 function binarySearchRec(arr, start, end, x) {
+  // No element present
   if (start > end) return -1;
+  // Calculate mid
   let mid = Math.floor((start + end) / 2);
+  // Element present
   if (arr[mid] === x) return mid;
+  // Element present is left half or not
   else if (x < arr[mid]) return binarySearchRec(arr, start, mid - 1, x);
+  // Element present is right half or not
   else return binarySearchRec(arr, mid + 1, end, x);
 }
 
