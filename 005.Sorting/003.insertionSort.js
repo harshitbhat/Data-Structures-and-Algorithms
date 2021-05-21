@@ -1,4 +1,4 @@
-// O(n^2)
+// O(n^2) - worst in reverseSorted
 // Inplace
 // Stable
 // O(n) is best case - already sorted
