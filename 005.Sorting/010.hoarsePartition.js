@@ -9,10 +9,9 @@ function hoarsePartition(arr, low, high) {
     do {
       j--;
     } while (arr[j] > pivot);
-    if (i > j) return;
+    if (i > j) return j;
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
-  return i;
 }
 
 const arr = [5, 3, 8, 4, 2, 7, 2, 10];
