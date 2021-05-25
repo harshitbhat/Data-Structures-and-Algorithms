@@ -19,3 +19,5 @@ const arr = [
 ];
 
 rotateBy90(arr);
+// If it is  n x n  matrix:
+// Find transpose and reverse the columns.
