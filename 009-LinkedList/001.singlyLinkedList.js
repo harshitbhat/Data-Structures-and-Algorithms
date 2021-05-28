@@ -47,6 +47,19 @@ class LinkedList {
     if (this.head === null) return;
     this.head = this.head.next;
   }
+  // Delete the last node
+  deleteLastNode() {
+    if (this.head === null) return;
+    if (this.head.next === null) {
+      this.head = null;
+      return;
+    }
+    let temp = this.head;
+    while (temp.next.next !== null) {
+      temp = temp.next;
+    }
+    temp.next = null;
+  }
 }
 
 const head1 = new Node(10);
@@ -59,8 +72,8 @@ const head2 = new Node(10);
 const head3 = null;
 
 const list = new LinkedList();
-list.head = head3;
+list.head = head1;
 list.traverse(list.head);
 console.log('+'.repeat(10));
-list.deleteFirstNode();
+list.deleteLastNode();
 list.traverse(list.head);
