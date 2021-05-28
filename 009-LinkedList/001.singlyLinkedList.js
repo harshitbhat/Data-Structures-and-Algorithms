@@ -16,6 +16,11 @@ class LinkedList {
       temp = temp.next;
     }
   }
+  traverseRec(node) {
+    if (node == null) return;
+    console.log(node.val);
+    this.traverseRec(node.next);
+  }
 }
 
 const head1 = new Node(10);
@@ -28,5 +33,5 @@ const head2 = new Node(10);
 const head3 = null;
 
 const list = new LinkedList();
-list.head = head3;
-list.traverse();
+list.head = head1;
+list.traverseRec(list.head);
