@@ -9,6 +9,7 @@ class LinkedList {
   constructor() {
     this.head = null;
   }
+  // Traversing a linked List
   traverse() {
     let temp = this.head;
     while (temp) {
@@ -16,10 +17,17 @@ class LinkedList {
       temp = temp.next;
     }
   }
+  // Recursive traversal
   traverseRec(node) {
     if (node == null) return;
     console.log(node.val);
     this.traverseRec(node.next);
+  }
+  // insert at beginning
+  insertAtBeginning(val) {
+    const newNode = new Node(val);
+    newNode.next = this.head;
+    this.head = newNode;
   }
 }
 
@@ -34,4 +42,6 @@ const head3 = null;
 
 const list = new LinkedList();
 list.head = head1;
-list.traverseRec(list.head);
+list.insertAtBeginning(99);
+list.insertAtBeginning(0);
+list.traverse(list.head);
