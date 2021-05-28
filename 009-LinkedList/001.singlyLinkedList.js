@@ -42,6 +42,11 @@ class LinkedList {
     }
     temp.next = newNode;
   }
+  // Delete the first node
+  deleteFirstNode() {
+    if (this.head === null) return;
+    this.head = this.head.next;
+  }
 }
 
 const head1 = new Node(10);
@@ -55,5 +60,7 @@ const head3 = null;
 
 const list = new LinkedList();
 list.head = head3;
-list.insertAtEnd(50);
+list.traverse(list.head);
+console.log('+'.repeat(10));
+list.deleteFirstNode();
 list.traverse(list.head);
