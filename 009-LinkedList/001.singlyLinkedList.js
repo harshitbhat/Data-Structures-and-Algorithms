@@ -29,6 +29,19 @@ class LinkedList {
     newNode.next = this.head;
     this.head = newNode;
   }
+  // insert at end
+  insertAtEnd(val) {
+    const newNode = new Node(val);
+    if (this.head === null) {
+      this.head = newNode;
+      return;
+    }
+    let temp = this.head;
+    while (temp.next != null) {
+      temp = temp.next;
+    }
+    temp.next = newNode;
+  }
 }
 
 const head1 = new Node(10);
@@ -41,7 +54,6 @@ const head2 = new Node(10);
 const head3 = null;
 
 const list = new LinkedList();
-list.head = head1;
-list.insertAtBeginning(99);
-list.insertAtBeginning(0);
+list.head = head3;
+list.insertAtEnd(50);
 list.traverse(list.head);
