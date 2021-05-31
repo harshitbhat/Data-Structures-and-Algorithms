@@ -1,0 +1,1 @@
+SELECT (id,name) from students WHERE department_id not in (SELECT id from departments)
