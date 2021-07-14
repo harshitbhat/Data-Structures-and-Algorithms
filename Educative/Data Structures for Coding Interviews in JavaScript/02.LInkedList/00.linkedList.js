@@ -80,7 +80,7 @@ LinkedList.prototype.insertAtTail = function (newData) {
   return this;
 };
 
-// Search if value is present
+// Search if value is present - Time Complexity: O(n)
 LinkedList.prototype.search = function (value) {
   if (this.isEmpty()) {
     return false;
@@ -97,7 +97,7 @@ LinkedList.prototype.search = function (value) {
   return false;
 };
 
-// Delete at head
+// Delete at head - Time Complexity: O(1)
 LinkedList.prototype.deleteAtHead = function (value) {
   if (this.isEmpty()) {
     return this;
@@ -106,7 +106,7 @@ LinkedList.prototype.deleteAtHead = function (value) {
   return this;
 };
 
-// Delete a particular value
+// Delete a particular value - Time Complexity: O(n)
 LinkedList.prototype.deleteVal = function (value) {
   if (this.isEmpty()) {
     return false;
@@ -128,6 +128,7 @@ LinkedList.prototype.deleteVal = function (value) {
 
   return false;
 };
+
 /* -------------------------------------------------------------------------- */
 /*                                    Test                                    */
 /* -------------------------------------------------------------------------- */
