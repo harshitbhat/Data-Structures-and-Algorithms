@@ -62,6 +62,24 @@ LinkedList.prototype.insertAtHead = function (data) {
   return this;
 };
 
+// Insert at tail
+LinkedList.prototype.insertAtTail = function (newData) {
+  const newNode = new Node(newData);
+
+  if (this.isEmpty()) {
+    this.head = newNode;
+    return this;
+  }
+
+  let temp = this.head;
+  // traverse, till next of temp is not null and insert there
+  while (temp.next !== null) {
+    temp = temp.next;
+  }
+  temp.next = newNode;
+  return this;
+};
+
 /* -------------------------------------------------------------------------- */
 /*                                    Test                                    */
 /* -------------------------------------------------------------------------- */
@@ -70,5 +88,9 @@ let list = new LinkedList();
 for (let i = 10; i >= 1; i--) {
   list = list.insertAtHead(i);
 }
+
+list.printList();
+
+list = list.insertAtTail(11);
 
 list.printList();
