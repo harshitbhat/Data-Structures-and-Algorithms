@@ -106,6 +106,28 @@ LinkedList.prototype.deleteAtHead = function (value) {
   return this;
 };
 
+// Delete a particular value
+LinkedList.prototype.deleteVal = function (value) {
+  if (this.isEmpty()) {
+    return false;
+  }
+
+  if (this.head.data === value) {
+    this.head = this.head.next;
+    return true;
+  }
+
+  let temp = this.head;
+  while (temp.next !== null) {
+    if (temp.next.data === value) {
+      temp.next = temp.next.next;
+      return true;
+    }
+    temp = temp.next;
+  }
+
+  return false;
+};
 /* -------------------------------------------------------------------------- */
 /*                                    Test                                    */
 /* -------------------------------------------------------------------------- */
