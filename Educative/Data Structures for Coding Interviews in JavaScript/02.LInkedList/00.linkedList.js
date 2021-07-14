@@ -97,6 +97,15 @@ LinkedList.prototype.search = function (value) {
   return false;
 };
 
+// Delete at head
+LinkedList.prototype.deleteAtHead = function (value) {
+  if (this.isEmpty()) {
+    return this;
+  }
+  this.head = this.head.next;
+  return this;
+};
+
 /* -------------------------------------------------------------------------- */
 /*                                    Test                                    */
 /* -------------------------------------------------------------------------- */
@@ -109,5 +118,10 @@ for (let i = 10; i >= 1; i--) {
 list.printList();
 
 list = list.insertAtTail(11);
+
+list.printList();
+
+list.deleteAtHead();
+list.deleteAtHead();
 
 list.printList();
