@@ -62,7 +62,7 @@ LinkedList.prototype.insertAtHead = function (data) {
   return this;
 };
 
-// Insert at tail
+// Insert at tail - Time Complexity: O(n), could be O(1) if tail pointer is maintained
 LinkedList.prototype.insertAtTail = function (newData) {
   const newNode = new Node(newData);
 
@@ -78,6 +78,23 @@ LinkedList.prototype.insertAtTail = function (newData) {
   }
   temp.next = newNode;
   return this;
+};
+
+// Search if value is present
+LinkedList.prototype.search = function (value) {
+  if (this.isEmpty()) {
+    return false;
+  }
+
+  let temp = this.head;
+  while (temp) {
+    if (temp.data === value) {
+      return true;
+    }
+    temp = temp.next;
+  }
+
+  return false;
 };
 
 /* -------------------------------------------------------------------------- */
