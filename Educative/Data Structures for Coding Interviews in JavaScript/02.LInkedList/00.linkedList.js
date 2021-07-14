@@ -129,6 +129,27 @@ LinkedList.prototype.deleteVal = function (value) {
   return false;
 };
 
+// Delete at tail - Time Complexity: O(n)
+LinkedList.prototype.deleteAtTail = function () {
+  if (this.isEmpty()) {
+    return this;
+  }
+
+  if (this.head.next === null) {
+    this.deleteAtHead();
+    return this;
+  }
+
+  let temp = this.head;
+  while (temp.next.next !== null) {
+    temp = temp.next;
+  }
+
+  temp.next = null;
+
+  return this;
+};
+
 /* -------------------------------------------------------------------------- */
 /*                                    Test                                    */
 /* -------------------------------------------------------------------------- */
@@ -145,6 +166,10 @@ list = list.insertAtTail(11);
 list.printList();
 
 list.deleteAtHead();
-list.deleteAtHead();
 
 list.printList();
+
+while (list.head) {
+  list = list.deleteAtTail();
+  list.printList();
+}
