@@ -53,3 +53,22 @@ LinkedList.prototype.getListStr = function () {
   st += 'null';
   return st;
 };
+
+// Insert at head - Time Complexity: O(1)
+LinkedList.prototype.insertAtHead = function (data) {
+  const temp = new Node(data);
+  temp.next = this.head;
+  this.head = temp;
+  return this;
+};
+
+/* -------------------------------------------------------------------------- */
+/*                                    Test                                    */
+/* -------------------------------------------------------------------------- */
+let list = new LinkedList();
+
+for (let i = 10; i >= 1; i--) {
+  list = list.insertAtHead(i);
+}
+
+list.printList();
