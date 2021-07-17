@@ -37,6 +37,17 @@ BinarySearchTree.prototype.insertIt = function (newVal) {
   }
 };
 
+BinarySearchTree.prototype.insertRec = function (currentNode, newVal) {
+  if (currentNode === null) {
+    currentNode = new Node(newVal);
+  } else if (newVal < currentNode.val) {
+    currentNode.leftChild = this.insertRec(currentNode.leftChild, newVal);
+  } else {
+    currentNode.rightChild = this.insertRec(currentNode.rightChild, newVal);
+  }
+  return currentNode;
+};
+
 /* -------------------------------------------------------------------------- */
 /*                                    Test                                    */
 /* -------------------------------------------------------------------------- */
