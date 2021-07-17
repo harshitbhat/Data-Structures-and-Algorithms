@@ -12,6 +12,7 @@ class BinarySearchTree {
   }
 }
 
+// Insert Iterative
 BinarySearchTree.prototype.insertIt = function (newVal) {
   if (this.root === null) {
     this.root = new Node(newVal);
@@ -37,6 +38,7 @@ BinarySearchTree.prototype.insertIt = function (newVal) {
   }
 };
 
+//  Insert Recursive
 BinarySearchTree.prototype.insertRec = function (currentNode, newVal) {
   if (currentNode === null) {
     currentNode = new Node(newVal);
@@ -46,6 +48,17 @@ BinarySearchTree.prototype.insertRec = function (currentNode, newVal) {
     currentNode.rightChild = this.insertRec(currentNode.rightChild, newVal);
   }
   return currentNode;
+};
+
+//  PreOrder Traversal
+BinarySearchTree.prototype.preOrder = function (node) {
+  if (node === null) return;
+  // Visit Node
+  console.log(node.val);
+  // Visit left sub tree
+  this.preOrder(node.leftChild);
+  // Visit right sub tree
+  this.preOrder(node.rightChild);
 };
 
 /* -------------------------------------------------------------------------- */
@@ -60,4 +73,4 @@ bst.insertIt(2);
 bst.insertIt(5);
 bst.insertIt(8);
 
-console.log(bst);
+bst.preOrder(bst.root);
