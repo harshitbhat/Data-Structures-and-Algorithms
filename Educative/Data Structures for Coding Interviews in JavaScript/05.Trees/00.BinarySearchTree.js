@@ -95,6 +95,76 @@ BinarySearchTree.prototype.search = function (value) {
   return currentNode;
 };
 
+BinarySearchTree.prototype.delete = function (currentNode, value) {
+  // Empty tree
+  if (currentNode === null) return false;
+
+  // Search for node in tree
+  let parentNode;
+  while (currentNode && currentNode.val !== value) {
+    parentNode = currentNode;
+    if (value < currentNode.val) {
+      currentNode = currentNode.leftChild;
+    } else {
+      currentNode = currentNode.rightChild;
+    }
+  }
+
+  // if node is not present
+  if (currentNode === null) return false;
+  // Leaf Node
+  else if (currentNode.leftChild === null && currentNode.rightChild === null) {
+    // check if node is a left or a right child of its parent or if it's the root
+    if (currentNode.val === this.root.val) {
+      this.root = null;
+      return true;
+    } else if (currentNode.val < parentNode.val) {
+      parentNode.leftChild = null;
+      return true;
+    } else {
+      parentNode.rightChild = null;
+      return true;
+    }
+  }
+  // if the node to be deleted has a left child only
+  else if (currentNode.rightChild === null) {
+    if (currentNode.val === this.root.val) {
+      this.root = this.root.leftChild;
+      return true;
+    } else if (currentNode.leftChild.val < parentNode.val) {
+      parentNode.leftChild = currentNode.leftChild;
+      return true;
+    } else {
+      parentNode.rightChild = currentNode.leftChild;
+      return true;
+    }
+  }
+  // if the node to be deleted has a right child only
+  else if (currentNode.leftChild === null) {
+    if (currentNode.val === this.root.val) {
+      this.root = this.root.rightChild;
+      return true;
+    } else if (currentNode.rightChild.val < parentNode.val) {
+      parentNode.leftChild = currentNode.rightChild;
+      return true;
+    } else {
+      parentNode.rightChild = currentNode.rightChild;
+      return true;
+    }
+  }
+  // node to be deleted has 2 children
+  else {
+    // find the left most node in the right subtree
+    let minRight = currentNode.rightChild;
+    while (minRight.leftChild) {
+      minRight = minRight.leftChild;
+    }
+    var temp = minRight.val;
+    this.delete(this.root, minRight.val);
+    currentNode.val = temp;
+  }
+};
+
 /* -------------------------------------------------------------------------- */
 /*                                    Test                                    */
 /* -------------------------------------------------------------------------- */
