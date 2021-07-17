@@ -72,6 +72,17 @@ BinarySearchTree.prototype.inOrder = function (node) {
   this.inOrder(node.rightChild);
 };
 
+// PostOrder Traversal
+BinarySearchTree.prototype.postOrder = function (node) {
+  if (node === null) return;
+  // Visit left sub tree
+  this.postOrder(node.leftChild);
+  // Visit right sub tree
+  this.postOrder(node.rightChild);
+  // Visit Node
+  console.log(node.val);
+};
+
 /* -------------------------------------------------------------------------- */
 /*                                    Test                                    */
 /* -------------------------------------------------------------------------- */
@@ -87,3 +98,5 @@ bst.insertIt(8);
 bst.preOrder(bst.root);
 console.log('='.repeat(20));
 bst.inOrder(bst.root);
+console.log('='.repeat(20));
+bst.postOrder(bst.root);
