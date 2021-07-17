@@ -83,6 +83,18 @@ BinarySearchTree.prototype.postOrder = function (node) {
   console.log(node.val);
 };
 
+BinarySearchTree.prototype.search = function (value) {
+  let currentNode = this.root;
+  while (currentNode && currentNode.val !== value) {
+    if (value < currentNode.value) {
+      currentNode = currentNode.leftChild;
+    } else {
+      currentNode = currentNode.rightChild;
+    }
+  }
+  return currentNode;
+};
+
 /* -------------------------------------------------------------------------- */
 /*                                    Test                                    */
 /* -------------------------------------------------------------------------- */
