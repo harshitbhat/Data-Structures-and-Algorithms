@@ -26,7 +26,24 @@ class Trie {
 // More Methods
 
 //  insert
-Trie.prototype.insert = function (key, value) {};
+Trie.prototype.insert = function (key) {
+  if (key === null) return;
+
+  key = key.toLowerCase();
+
+  let currentNode = this.root;
+  let index = 0;
+
+  for (let i = 0; i < key.length; i++) {
+    index = this.getIndex(key[i]);
+    if (currentNode.children[index] === null) {
+      currentNode.children[index] = new TrieNode(key[i]);
+    }
+    currentNode = currentNode.children[index];
+  }
+
+  currentNode.markAsLeaf();
+};
 
 // search
 Trie.prototype.search = function (key) {};
@@ -37,5 +54,17 @@ Trie.prototype.delete = function (key) {};
 /* -------------------------------------------------------------------------- */
 /*                                    Test                                    */
 /* -------------------------------------------------------------------------- */
-const trieNode = new TrieNode('a');
-console.log(trieNode);
+
+const trie = new Trie();
+
+// trie.insert('the');
+// console.log(trie);
+// console.log(trie.root.children['t'.charCodeAt(0) - 'a'.charCodeAt(0)]);
+
+let keys = ['the', 'a', 'there', 'answer', 'any', 'by', 'bye', 'their', 'abc'];
+
+for (const key of keys) {
+  trie.insert(key);
+}
+
+console.log(trie.root.children);
