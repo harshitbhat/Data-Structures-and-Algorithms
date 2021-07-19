@@ -69,7 +69,51 @@ Trie.prototype.search = function (key) {
 };
 
 // delete
-Trie.prototype.delete = function (key) {};
+Trie.prototype.hasNoChildren = function (currentNode) {
+  return currentNode.children.every((child) => child === null);
+};
+
+Trie.prototype.deleteHelper = function (key, currentNode, length, level) {
+  let deletedSelf = false;
+
+  if (currentNode === null) {
+    console.log('Node does not exist');
+    return deletedSelf;
+  }
+
+  // If we have reached at the node which points to the alphabet at the end of the key.
+  if (level === length) {
+    if (this.hasNoChildren(currentNode)) {
+      currentNode = null;
+      deletedSelf = true;
+    } else {
+      currentNode.unMarkAsLeaf();
+      deletedSelf = false;
+    }
+  } else {
+    let childNode = currentNode.children[this.getIndex(key[level])];
+    let childDeleted = this.deleteHelper(key, childNode, length, level + 1);
+    if (childDeleted) {
+      currentNode.children[this.getIndex(key[level])] = null;
+      if (currentNode.isEndWord) {
+        deletedSelf = false;
+      } else if (this.hasNoChildren(currentNode) === false) {
+        deletedSelf = false;
+      } else {
+        currentNode = null;
+        deletedSelf = true;
+      }
+    } else {
+      deletedSelf = false;
+    }
+  }
+  return deletedSelf;
+};
+
+Trie.prototype.delete = function (key) {
+  if (this.root === null || key === null) return;
+  this.deleteHelper(key, this.root, key.length, 0);
+};
 
 /* -------------------------------------------------------------------------- */
 /*                                    Test                                    */
