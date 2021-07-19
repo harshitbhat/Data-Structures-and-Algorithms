@@ -1,3 +1,5 @@
+// Question Link: https://practice.geeksforgeeks.org/problems/check-for-bst/1/
+
 class Solution {
   //Function to check whether a Binary Tree is BST or not.
   // Wrong arrpoach, can have a subtree, below the root node, which is greater less than root
