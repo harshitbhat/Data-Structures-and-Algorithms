@@ -20,8 +20,8 @@ const multiply = (mat1, mat2) => {
     for (let j = 0; j < 2; j++) {
       let prod = 0;
       for (let k = 0; k < 2; k++) {
-        prod += (mat1[i][k] * mat2[k][j]) % MOD;
-        prod %= MOD;
+        const mult = (((mat1[i][k] % MOD) * mat2[k][j]) % MOD) % MOD;
+        prod = ((prod % MOD) + (mult % MOD)) % MOD;
       }
       row.push(prod);
     }
