@@ -45,7 +45,7 @@ class Cop {
 
 // Method overloading
 
-class Calculator {
+class CalculatorOne {
     public double product(double x, double y){
         return x * y;
     }
