@@ -68,3 +68,27 @@ function solve(n, str) {
 }
 
 solve(4, 'IDD');
+
+/* -------------------------------------------------------------------------- */
+/*                                  Editorial                                 */
+/* -------------------------------------------------------------------------- */
+
+function solve2(str, n) {
+  let min = 1;
+  let max = n;
+
+  let ans = [];
+  for (let i = 0; i < n; i++) {
+    if (str.charAt(i) === 'D') {
+      ans[i] = max--;
+    } else if (str.charAt(i) === 'I') {
+      ans[i] = min++;
+    } else {
+      ans[i] = min;
+    }
+  }
+  console.log(ans);
+  return ans;
+}
+
+solve2('DID', 4);
