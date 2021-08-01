@@ -1,11 +1,11 @@
-const solve = (a, i, j, n, ans) => {
+const solve = (a, i, n, ans) => {
   if (i === n) {
     ans.push([...a]);
     return;
   } else {
     for (let j = i; j < n; j++) {
       [a[i], a[j]] = [a[j], a[i]];
-      solve(a, i + 1, j + 1, n, ans);
+      solve(a, i + 1, n, ans);
       [a[i], a[j]] = [a[j], a[i]];
     }
   }
@@ -16,7 +16,7 @@ module.exports = {
   //return a array of array of integers
   permute: function (A) {
     const ans = [];
-    solve(A, 0, 0, A.length - 1, ans);
+    solve(A, 0, A.length - 1, ans);
     return ans;
   },
 };
