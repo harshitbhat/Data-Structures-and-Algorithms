@@ -66,9 +66,10 @@ class QueueStack {
       }
     }
 
-    while (!this.q2.empty()) {
-      this.q1.push(this.q2.pop());
-    }
+    // while (!this.q2.empty()) {
+    //   this.q1.push(this.q2.pop());
+    // }
+    [this.q1, this.q2] = [this.q2, this.q1];
 
     return removed;
   }
